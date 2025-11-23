@@ -356,10 +356,7 @@ header img{
 }
 @media only screen and (max-width:480px){
       .menu-bar .fa-sun,.fa-moon{
-        position: absolute;
-        top: 35px;
-        left: 300px;
-        right: 10px;
+        display: none;
         
     }
      
