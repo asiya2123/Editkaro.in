@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+      background: url('darkMode.png');
+      background-size: cover;
+      background-repeat:no-repeat ;
+}
+.nav-links{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    
+}
+.nav-links a{
+    margin-right: 2rem;
+}
+.header{
+    position: sticky;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header a{
+   color: white;
+}
+header i{
+    margin-right: 0.5rem;
+}
+.bgimage {
+    background: url('lightMode.jpg');
+     background-size: cover;
+    background-repeat:no-repeat ;
+}
+.lgin-page{
+    margin: 0;
+    top: 0;
+}
+.lgin{
+    color: black;
+}
+.fa-moon{
+    color:black ;
+}
+.logon-link{
+    color:white;
+}
+
+
+
+form a{
+    color: blue;
+    font-size: 1rem;
+}
+main{
+display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.sctions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+form{
+    margin-top: 100px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px ;
+}
+form h2{
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+form p{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: white;
+}
+form i{
+    text-align: center;
+    color: white;
+  /*  border: solid blue;
+    border-radius: 50%;*/
+    padding: 10px;
+    margin-top: 5px;
+}
+form i:hover{
+    color: blue;
+}
+.foot{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+label{
+    font-size: 1.3rem;
+    color: white;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: rgb(64, 56, 56);
+}
+button{
+    width: 300px;
+    height: 30px;
+    background-color:pink;
+    position: relative;
+    border-radius: 10px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ 
+   .container i{
+    display: none;
+}
+.links{
+    display: none;
+}
+
+    /*about sec*/
+    .about{
+    
+    display: block;
+    padding: 20px;
+}
+.top-part{
+    color:white;
+    display: block;
+  /* background-color: rgb(234, 211, 240);*/
+   margin-top: 2px; 
+}
+.inner-part{
+    color:white;
+    display: flex;
+ /*   flex-direction: row-reverse;*/
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    background-color:rgb(25, 4, 74);
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    box-shadow: 2px 2px 5px 2px rgb(210, 167, 230);
+}
+.inner-partforlightmode{
+    background-color:white ;
+    color: black;
+
+}
+.style1{
+    margin: 5px;
+}
+.span{
+    color: blueviolet;
+    padding: 5px;
+}
+.btn-link{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(66, 14, 80); 
+}
+#btn-link{
+    margin: 45px ;
+    margin-bottom: 25px;
+}
+.btn-link:hover{
+    background-color: rgb(210, 167, 230);
+}
+.img,#img{
+    border-radius: 0px 15px 15px ;
+}
+/*contact-setion*/
+.contact-sec{
+    text-align: center;
+    background-color:rgb(20, 20, 61) ;
+    display: block;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 2rem;
+    
+}
+.contacts{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    margin: 0px;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+#a1{
+    color: blue;
+}
+#a2{
+    color: black;
+}
+#a3{
+    color: orange;
+}
+.a:hover{
+    display: block;
+    border-radius: 100%;
+    border: solid ;
+    
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.a{
+    display: block;
+    margin-top: 1rem;
+    font-size:2rem;
+}
+/*footer-section*/
+footer{
+    text-align: center;
+    background-color: rgb(15, 2, 34);
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+       
+
+
+@media only screen and (max-width:750px){
+    header{
+    font-size: 1rem;
+    }
+    body{
+      background: url('mbil_darkMode.jpg');
+      background-size: cover;
+       background-repeat:no-repeat ;
+       width: 100%;
+      
+}
+
+main{
+display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+form i{
+      font-size: .5rem;
+}
+header a{
+    font-size: 0.5rem;
+}
+form{
+    width: 60%;
+}
+form input{
+    width: 100%;
+}
+form button{
+    width: 100%;
+}
+header img{
+    width: 90px;
+    object-fit: cover;
+    margin-left: 10px;
+   }
+   .bg{
+   background-color: rgb(2, 2, 59);
+    border: 0.5px solid white;
+    border-radius: 10px;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    }
+    header a{
+    display: flex;
+    flex-direction: column;
+    color: white;    
+    border-bottom: 1px solid white;
+    font-size: 0.8rem;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    }
+    #mode-icon{ 
+    border-bottom: none;
+    }
+    .menu-bar .fa-bars,.fa-xmark{
+    display: block;
+ /*   flex-direction: row;
+    justify-content: center;
+    align-content: center;*/
+    color: black;
+    position: absolute;
+    top: 35px;
+    right: 15px;
+    font-size: 1.2rem;
+    }
+    .container i{
+        display: block;
+    }
+    .menu-bar .fa-sun,.fa-moon{
+        position: absolute;
+        top: 35px;
+        left: 500px;
+        
+    }
+  
+
+    /* menu bar content displayed none */
+    .links {
+    display: none;
+    }
+    .nav-links{
+    display: none;
+    }
+    header{
+    display: block;
+    }
+    .nav-links .fa-sun{
+        display: block;
+    }
+        /*mobile view- about-sec*/
+   .img,#img{
+        border-radius: 15px 15px 15px 15px;
+        padding-right: 20px;
+    }
+        .style1{
+        font-size: 1.5rem;
+    }
+   
+    .inner-part{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .inner-part p{
+        padding-right: 10px;
+    } 
+}
+@media only screen and (max-width:380px){
+      .menu-bar .fa-sun,.fa-moon{
+        position: absolute;
+        top: 35px;
+        left: 300px;
+        right: 10px;
+        
+    }
+     
+
+}
+
+
+    
