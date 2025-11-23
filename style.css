@@ -354,7 +354,7 @@ header img{
         padding-right: 10px;
     } 
 }
-@media only screen and (max-width:380px){
+@media only screen and (max-width:480px){
       .menu-bar .fa-sun,.fa-moon{
         position: absolute;
         top: 35px;
